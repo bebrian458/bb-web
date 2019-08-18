@@ -6,10 +6,10 @@ const Navlinks = styled.ul`
   margin: 20px;
   z-index: 2;
 
-  li {
+  a {
     display: block;
     padding: 5px 10px;
-    color: #000;
+    color: indigo;
     font-weight: bold;
     transition-duration: 0.18s;
 

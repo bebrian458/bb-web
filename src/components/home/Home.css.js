@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-// import bg from '../../images/background/background-calm-clouds-747964.jpg';
-import bg from '../../images/background/adventure-alps-background-547114.jpg';
+import bg from '../../images/background/background-calm-clouds-747964.jpg';
+// import bg from '../../images/background/adventure-alps-background-547114.jpg';
 
 const Body = styled.div`
   background: url(${bg}) no-repeat center center;
@@ -21,7 +21,7 @@ const CenterText = styled.div`
   align-items: center;
 `;
 
-const Name = styled.p`
+const Name = styled.div`
   font-size: 3rem;
   font-weight: bold;
   color: white;
