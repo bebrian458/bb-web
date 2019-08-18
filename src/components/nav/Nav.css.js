@@ -11,7 +11,7 @@ const Navlinks = styled.ul`
     padding: 5px 10px;
     color: #000;
     font-weight: bold;
-    transition-duration: 0.2s;
+    transition-duration: 0.18s;
 
     &:hover {
       color: #fff;
