@@ -4,7 +4,6 @@ import Typewriter from 'typewriter-effect';
 
 export class Home extends Component {
   render() {
-    console.log(this.props.match);
     return (
       <Body>
         <CenterText>

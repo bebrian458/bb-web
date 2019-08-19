@@ -3,12 +3,16 @@ import styled from 'styled-components';
 const Navlinks = styled.ul`
   display: flex;
   justify-content: flex-end;
-  margin: 20px;
+  align-items: center;
   z-index: 2;
+  padding: 0px 30px;
+  height: 50px;
+  background: ${props => props.theme.bg};
 
   a {
     display: block;
-    padding: 5px 10px;
+    padding: 0px 5px;
+    margin: 0px 5px;
     color: indigo;
     font-weight: bold;
     transition-duration: 0.18s;
@@ -20,5 +24,11 @@ const Navlinks = styled.ul`
     }
   }
 `;
+
+Navlinks.defaultProps = {
+  theme: {
+    bg: 'none'
+  }
+};
 
 export { Navlinks };
