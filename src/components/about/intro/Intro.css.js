@@ -28,10 +28,15 @@ const Description = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   max-width: 500px;
-  min-height: 300px;
+  min-height: 350px;
   margin: 0 auto;
   color: white;
   word-break: break-word;
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
 `;
 
 const Button = styled.button`

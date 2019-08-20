@@ -24,12 +24,24 @@ export class Intro extends Component {
             Though I am experienced in full-stack developemnt, I have a heavier
             emphasis in frontend development.
           </p>
+          <p>
+            Check out my{' '}
+            <a href="#skills" rel="noopener noreferrer">
+              skills
+            </a>{' '}
+            and other{' '}
+            <a href="#hobbies" rel="noopener noreferrer">
+              hobbies
+            </a>{' '}
+            below!
+          </p>
           <br />
           <Button>
-            <a href={resume} target="_blank">
+            <a href={resume} rel="noopener noreferrer" target="_blank">
               View Resume
             </a>
           </Button>
+          <Button />
         </Description>
         <ProfilePicContainer>
           <ProfilePic />
