@@ -5,15 +5,17 @@ import { ThemeProvider } from 'styled-components';
 
 export class Nav extends Component {
   state = {
-    bg: 'none'
+    bg: 'none',
+    text: 'indigo'
   };
 
-  clearBackground = () => this.setState({ bg: 'none' });
-  setBackground = () => this.setState({ bg: '#c0dbe6' });
+  clearBackground = () => this.setState({ bg: 'none', text: 'indigo' });
+  setBackground = () => this.setState({ bg: 'black', text: '#555' });
 
   render() {
     const theme = {
       bg: this.state.bg,
+      text: this.state.text,
       active: 'white'
     };
 
