@@ -26,6 +26,8 @@ const Name = styled.div`
   font-weight: bold;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  word-break: break-word;
+  text-align: center;
 `;
 
 const Line = styled.hr`

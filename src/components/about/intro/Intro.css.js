@@ -43,7 +43,7 @@ const Button = styled.button`
   border-radius: 10px;
   font-size: 1rem;
   // padding: 10px;
-  background: linear-gradient(to right, black, grey);
+  background: linear-gradient(to right, #222, #777);
   box-shadow: 0px 0px 0px 1px #888888;
   border: none;
   cursor: pointer;
@@ -53,6 +53,7 @@ const Button = styled.button`
     color: white;
     display: block;
     padding: 10px;
+    text-decoration: none;
   }
 
   &:hover {

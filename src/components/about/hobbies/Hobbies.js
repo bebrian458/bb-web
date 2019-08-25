@@ -5,7 +5,8 @@ export class Hobbies extends Component {
   render() {
     return (
       <Container id="hobbies">
-        These are my hobbies: music, cooking, photography
+        These are my hobbies: music, cooking, photography. I am also a sound
+        engineer, youth group leader, and media specialist
       </Container>
     );
   }
