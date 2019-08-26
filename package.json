@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
     "isotope-layout": "^3.0.6",
     "react": "^16.9.0",
     "react-browser-router": "^2.1.2",

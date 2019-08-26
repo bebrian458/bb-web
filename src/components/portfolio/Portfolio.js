@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Header } from './Portfolio.css.js';
 import ItemGrid from './ItemGrid';
 import Item from './Item';
+import GridFilter from './GridFilter.js';
 
 export class Portfolio extends Component {
   render() {
@@ -9,17 +10,20 @@ export class Portfolio extends Component {
       {
         id: 1,
         name: 'test',
-        imageUrl: '#'
+        imageUrl: '#',
+        type: 'tech'
       },
       {
         id: 2,
         name: 'test2',
-        imageUrl: '#'
+        imageUrl: '#',
+        type: 'personal'
       },
       {
         id: 3,
         name: 'test3',
-        imageUrl: '#'
+        imageUrl: '#',
+        type: 'tech'
       }
     ];
     return (
@@ -31,6 +35,9 @@ export class Portfolio extends Component {
             other types of projects. These include mobile apps and 2D/3D games.
           </p>
         </Header>
+
+        <GridFilter />
+
         <ItemGrid>
           {data.map(object => {
             return (
@@ -38,6 +45,7 @@ export class Portfolio extends Component {
                 key={object._id}
                 name={object.name}
                 imageUrl={object.imageUrl}
+                type={object.type}
               />
             );
           })}
